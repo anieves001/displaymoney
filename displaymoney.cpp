@@ -11,7 +11,7 @@ int main(){
 	cout<<"Enter amount: ";
 	cin>>amount;
 	string hand=displaymoney(amount);
-	cout<<hand;
+	cout<<"$ "<<hand;
 	return 0;
 }
 
